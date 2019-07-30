@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CovenetDemo</string>
+
+    <string name="feature_travel">Travel</string>
+    <string name="feature_health">Health</string>
+    <string name="feature_security">Security</string>
+    <string name="feature_chat">Chat</string>
+
+</resources>

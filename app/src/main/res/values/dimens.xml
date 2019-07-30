@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="product_image_size">120dp</dimen>
+
+    <dimen name="product_options_image_size">35dp</dimen>
+    <dimen name="product_options_image_circle_radius">90dp</dimen>
+
+    <dimen name="ripple_radius">150dp</dimen>
+
+</resources>

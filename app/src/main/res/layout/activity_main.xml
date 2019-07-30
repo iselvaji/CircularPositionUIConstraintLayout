@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.covenet.com.covenetdemo.ui.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageProductCar"
+        style="@style/ProductImageTheme"
+        app:srcCompat="@drawable/ic_car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintVertical_bias="0.156"
+        />
+
+    <ImageButton
+        android:id="@+id/imageOptionsInfo"
+        style="@style/ProductOptionsImageTheme"
+        app:srcCompat="@drawable/ic_info"
+        android:layout_marginTop="16dp"
+        app:layout_constraintCircle="@id/imageProductCar"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        app:layout_constraintCircleAngle="360"
+        />
+
+    <ImageButton
+        android:id="@+id/imageOptionsDelete"
+        style="@style/ProductOptionsImageTheme"
+        app:srcCompat="@drawable/ic_delete"
+        app:layout_constraintCircle="@id/imageProductCar"
+        app:layout_constraintCircleAngle="320"
+        />
+
+    <ImageButton
+        android:id="@+id/imageOptionsShare"
+        style="@style/ProductOptionsImageTheme"
+        app:layout_constraintCircle="@id/imageProductCar"
+        app:layout_constraintCircleAngle="280"
+        app:srcCompat="@drawable/ic_share" />
+
+
+    <ImageButton
+        android:id="@+id/imageViewProductApple"
+        style="@style/ProductImageTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/ic_apple" />
+
+    <ImageButton
+        android:id="@+id/imageOptionsclock"
+        style="@style/ProductOptionsImageTheme"
+        app:srcCompat="@drawable/ic_clock"
+        app:layout_constraintCircle="@id/imageViewProductApple"
+        app:layout_constraintCircleAngle="360" />
+
+    <ImageView
+        android:id="@+id/imageViewProductSafety"
+        style="@style/ProductImageTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677"
+        app:srcCompat="@drawable/ic_safety" />
+
+
+    <ImageButton
+        android:id="@+id/imageViewProductChat"
+        style="@style/ProductImageTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        app:srcCompat="@drawable/ic_chat" />
+
+    <ImageButton
+        android:id="@+id/imageViewStepCount"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_step"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        android:layout_margin="20dp"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageViewWatch"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:srcCompat="@drawable/ic_watch"
+        app:layout_constraintBottom_toBottomOf="@id/constraintLayout"
+        android:layout_margin="20dp"
+        android:background="@null"
+         />
+
+</android.support.constraint.ConstraintLayout>

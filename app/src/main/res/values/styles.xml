@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProductImageTheme">
+        <item name="android:layout_width">@dimen/product_image_size</item>
+        <item name="android:layout_height">@dimen/product_image_size</item>
+        <item name="android:onClick">onProductClick</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="ProductOptionsImageTheme">
+        <item name="android:layout_width">@dimen/product_options_image_size</item>
+        <item name="android:layout_height">@dimen/product_options_image_size</item>
+        <item name="layout_constraintCircleRadius">@dimen/product_options_image_circle_radius</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+    </style>
+
+</resources>
